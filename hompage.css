@@ -6,7 +6,7 @@ body{
 	color: white;
 	text-align: center;
 	position: relative;
-	top: -160px;
+	top: -60px;
 	left: 50px;
 	
 }
@@ -16,6 +16,10 @@ body{
 	width: 80%;
 }
 
+#logo{
+	position: relative;
+	top: 25px;
+}
 
 
 
