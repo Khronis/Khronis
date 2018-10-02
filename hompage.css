@@ -1,5 +1,10 @@
 body{
-	background: #fff0b3; 
+	background-image: url(background.jpg); 
+	background-repeat: no-repeat;
+    background-size: contain, cover;
+
+
+    background-size: cover;
 }
 
 #titles{
