@@ -1,5 +1,5 @@
 body{
-	background-image: url(background.jpg); 
+	background-image: url(back2.jpg); 
 	background-repeat: no-repeat;
     background-size: contain, cover;
 
@@ -25,6 +25,12 @@ body{
 	position: relative;
 	top: 25px;
 	left: 15px;
+}
+#Products{
+	position: relative;
+	top:300px;
+	left: 550px;
+
 }
 
 
