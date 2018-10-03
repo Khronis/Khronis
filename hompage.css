@@ -11,19 +11,20 @@ body{
 	color: white;
 	text-align: center;
 	position: relative;
-	top: -28px;
-	left: 50px;
+	top: -55px;
+	left: -50px;
 	
 }
 #heading{
 	position: relative;
-	left: 150px;
-	width: 80%;
+	height: 100px;
+	
+	
 }
 
 #logo{
 	position: relative;
-	top: 25px;
+	top: 15px;
 	left: 15px;
 }
 #Products{
@@ -34,4 +35,75 @@ body{
 }
 
 
+
+#ProductTitle{
+	color: black;
+	border-left: 3px solid white;
+	border-right: 3px solid white;
+	padding-left: 8px;
+	position: relative;
+	top: -250px;
+	left: 1250px;
+
+
+
+}
+
+#ProductTitle:hover{
+	color: white;
+}
+#homeTitle:hover{
+	color: white;
+}
+#PricingTitle:hover{
+	color: white;
+}
+#BlogTitle:hover{
+	color: white;
+}
+#AboutTitle:hover{
+	color: white;
+}
+
+#homeTitle{
+	color: black;
+	position: relative;
+	top: -210px;
+	left: 1200px;
+
+}
+
+#PricingTitle{
+	color: black;
+	border-left: 3px solid white;
+	border-right: 3px solid white;
+	padding-left: 8px;
+	position: relative;
+	top: -290px;
+	left: 1325px;
+
+
+}
+#BlogTitle{
+	color: black;
+	border-left: 3px solid white;
+	border-right: 3px solid white;
+	padding-left: 8px;
+	position: relative;
+	top: -329px;
+	left: 1395px;
+
+
+}
+#AboutTitle{
+	color: black;
+	border-left: 3px solid white;
+	border-right: 3px solid white;
+	padding-left: 8px;
+	position: relative;
+	top: -369px;
+	left: 1450px;
+
+
+}
 
