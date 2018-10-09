@@ -5,8 +5,8 @@ Repository for Khronis Organization
 User Names:
 	Mustafa Ali: 300060406, 
 	skylathadani: 300055455 
-	Dabira12, 300055757
-	XBTech: 
+	Dabira12: 300055757
+	XBTech: 300090549
 	Yasser Alnader: 300072599
 
 Github Pages:
