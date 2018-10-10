@@ -1,0 +1,98 @@
+body{
+	background-color: white;
+}
+
+#titles{
+	color: white;
+	text-align: center;
+	position: relative;
+	top: -55px;
+	left: -50px;
+	
+}
+#heading{
+	position: relative;
+	height: 60px;
+	
+	
+}
+
+#logo{
+	position: relative;
+	top: 20px;
+	left: 15px;
+}
+
+
+
+#ProductTitle{
+	color: black;
+	border-left: 3px solid white;
+	border-right: 3px solid white;
+	padding-left: 8px;
+	position: relative;
+	top: -260px;
+	left: 1250px;
+
+
+
+}
+
+#ProductTitle:hover{
+	color: white;
+}
+#homeTitle:hover{
+	color: white;
+}
+#PricingTitle:hover{
+	color: white;
+}
+#BlogTitle:hover{
+	color: white;
+}
+#AboutTitle:hover{
+	color: white;
+}
+
+#homeTitle{
+	color: black;
+	position: relative;
+	top: -220px;
+	left: 1200px;
+
+}
+
+#PricingTitle{
+	color: black;
+	border-left: 3px solid white;
+	border-right: 3px solid white;
+	padding-left: 8px;
+	position: relative;
+	top: -299px;
+	left: 1325px;
+
+
+}
+#BlogTitle{
+	color: black;
+	border-left: 3px solid white;
+	border-right: 3px solid white;
+	padding-left: 8px;
+	position: relative;
+	top: -339px;
+	left: 1395px;
+
+
+}
+#AboutTitle{
+	color: black;
+	border-left: 3px solid white;
+	border-right: 3px solid white;
+	padding-left: 8px;
+	position: relative;
+	top: -379px;
+	left: 1450px;
+
+
+}
+
