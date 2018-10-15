@@ -2,39 +2,32 @@
 .header {
   overflow: hidden;
   background-color: #A4A4A4;
-  padding: 10px 10px;
+  padding: 20px 10px;
 }
 
 /* Header buttons styling */
 .header a {
-  width: 90px;
+
   float: left;
   color: black;
   text-align: center;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-bottom: 8px;
-  padding-top: 8px;
+  padding: 12px;
   text-decoration: none;
-  font-size: 20px; 
-  line-height: 30px;
-  border-radius: 3px;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
   
   font-weight: bold;
   font-family: verdena, serif; 
-}
-.header b {
-  padding-left: 40px;
-  padding-right: 14px;
-
 }
 
 
 /* logo sizing */
 .header a.logo {
-  line-height: 18px;
+  line-height: 15px;
 
 }
+
 
 /* Background color when mouse hovering */
 .header-r a:hover {
@@ -42,10 +35,11 @@
   color: black;
 }
 
-/* Style the active/current link*/
+/* Style the current link */
 .header a.current {
   background-color: #585858;
   color: white;
+  padding: 10px;
   border: 2px solid white;
 }
 
@@ -58,15 +52,16 @@
 
 
 /* Task bar vertical when website to small */ 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 400px) {
   .header a {
     width: auto;
-    float: none;
-    text-align: left;
     display: block;
-    
-  }
+    text-align: left;
+    padding-right:40px;
+}
   .header-r {
     float: none;
   }
+    
 }
+ 
