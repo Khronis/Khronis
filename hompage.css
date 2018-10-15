@@ -1,98 +1,173 @@
-body{
-	background-color: white;
+@import url(https://fonts.googleapis.com/css?family=Kanit);
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+
+
+:root{
+	--background: rgba(50,182,223, .5);
 }
 
-#titles{
-	color: white;
+*, *::before, *::after{
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	background: #222;
+	font-family: "Kanit", sans-serif;
+	font-weight: 400;
+}
+
+.content{
+	height: 200vh;
+	/*background-image: url(back2.jpg);*/
+	background-color: #333;
+	background-blend-mode: multiply;
+	background-size: cover;
+	display: grid;
+	place-items: center;
+}
+
+/* Nav styles */
+header{
+	background: rgba(50,182,223, .5);
 	text-align: center;
-	position: relative;
-	top: -55px;
-	left: -50px;
+	position: fixed;
+	z-index: 999;
+	width:100%;
+}
+
+.logo{
+	width: 50%;
+	text-align: right;
+
+}
+
+.nav-toggle {
+	display: none;
+}
+
+.nav-toggle-label{
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-left: 1em;
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.nav-toggle-label span{
+	transform:rotate(-90deg);
+	color: white;
+	font-weight: 100;
+	font-size: 35px;
+	font-family: "Amatic+SC";
+}
+nav{
+	position: absolute;
+	text-align: left;
+	top:100%;
+	left: 0;
+	background: rgba(50,182,223, .5);
+	width: 100%;
+	transform: scale(1,0);
+	transform-origin: top;
+	transition: transform 400ms ease-in-out;
+
+}
+
+nav ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav li{
+	margin-bottom: 1em;
+	margin-left: 1em;
+
+}
+
+nav a{
+	color: white;
+	text-decoration: none;
+	font-size:1.2rem;
+	text-transform: uppercase;
+	opacity: 0;
+	transition: opacity 100ms ease-in-out ;
+
+}
+
+nav a:hover{
+	color: #50ff77;
+}
+
+.nav-toggle:checked ~ nav {
+	transform: scale(1,1);
+}
+
+.nav-toggle:checked ~ nav a{
+	opacity: 1;
+	transition: opacity 250ms ease-in-out 250ms;
+}
+
+@media screen and (min-width: 800px){
+	.nav-toggle-label{
+		display: none;
+	}
+	header{
+		display: grid;
+		grid-template-columns: 1fr auto minmax(600px, 3fr) 1fr;
+	}
+	.logo{
+		grid-column: 2 / 3;
+		width: 80%;
+	}
+
+	nav{
+		all: unset;
+		grid-column: 3/4;
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+	}
 	
-}
-#heading{
-	position: relative;
-	height: 60px;
+	nav ul{
+		display: flex;
+		justify-content: flex-end;
+	}
+	nav li{
+		margin-left: 3em;
+		margin-bottom: 0;
+	}
 	
+	nav a{
+		opacity: 1;
+		position: relative;
+	}
+
+	nav a::before{
+		content: '';
+		display: block;
+		height: 5px;
+		background: black;
+		position: absolute;
+		top: -.75em;
+		left: 0;
+		right: 0; 
+		transform: scale(0,1);
+		transition: transform ease-in-out 250ms
+	}
+
+	nav a:hover::before{
+		transform: scale(1,1);
+	}
+}
+
+.slider{
+
+	position: relative;
 	
+    top: 50%;
+    width: 100%;
 }
-
-#logo{
-	position: relative;
-	top: 20px;
-	left: 15px;
-}
-
-
-
-#ProductTitle{
-	color: black;
-	border-left: 3px solid white;
-	border-right: 3px solid white;
-	padding-left: 8px;
-	position: relative;
-	top: -260px;
-	left: 1250px;
-
-
-
-}
-
-#ProductTitle:hover{
-	color: white;
-}
-#homeTitle:hover{
-	color: white;
-}
-#PricingTitle:hover{
-	color: white;
-}
-#BlogTitle:hover{
-	color: white;
-}
-#AboutTitle:hover{
-	color: white;
-}
-
-#homeTitle{
-	color: black;
-	position: relative;
-	top: -220px;
-	left: 1200px;
-
-}
-
-#PricingTitle{
-	color: black;
-	border-left: 3px solid white;
-	border-right: 3px solid white;
-	padding-left: 8px;
-	position: relative;
-	top: -299px;
-	left: 1325px;
-
-
-}
-#BlogTitle{
-	color: black;
-	border-left: 3px solid white;
-	border-right: 3px solid white;
-	padding-left: 8px;
-	position: relative;
-	top: -339px;
-	left: 1395px;
-
-
-}
-#AboutTitle{
-	color: black;
-	border-left: 3px solid white;
-	border-right: 3px solid white;
-	padding-left: 8px;
-	position: relative;
-	top: -379px;
-	left: 1450px;
-
-
-}
-
