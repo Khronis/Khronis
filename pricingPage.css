@@ -1,0 +1,98 @@
+.personalUseColumn{
+	box-sizing: border-box;
+	width: 33.3%;
+	padding: 5px;
+	float: left;
+	text-align: center;
+}
+
+.businessUseColumn{
+	box-sizing: border-box;
+	width:50%;
+	padding: 5px;
+	float: left;
+	text-align: center;
+}
+
+.plan{
+	list-style-type: none;
+	margin:0;
+	padding:0;
+	background: white;
+	border: none;
+	-webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.plan:hover{
+	box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2);
+}
+
+.price{
+	font-size: 17px;
+	color: white;
+	width: 100%;
+	padding: 20px 0;
+}
+
+.header{
+	color: white;
+	font-family: 'Raleway';
+	font-size: 25px;
+	font-weight: bold;
+	width:100%;
+	padding:20px 0;
+}
+
+#priceBasicPlan{
+	background: #3fc59e;
+}
+
+#basicPlanHeader{
+	background-color: #50ff77;
+}
+
+#priceProPlan{
+	background: #2b9ec2;
+}
+
+#proPlanHeader{
+	background-color: #32B6DF;
+}
+
+#pricePremiumPlan{
+	background: #8B14AD;
+}
+
+#premiumPlanHeader{
+	background-color: #CC1EFF;
+}
+
+.info{
+	border-bottom: 1px solid #eee;
+	border-right: 1px solid #eee;
+	border-left: 1px solid #eee;
+    padding: 20px;
+    text-align: center;
+}
+
+.buyButtonContainer{
+	border: none;
+	margin-top: 20px;
+}
+
+.buyButton:link{
+	text-decoration: none;
+	color: black;
+	text-align: center;
+	font-family: 'Rubik';
+	font-weight: bold;
+	background: #F8F8F8;
+	padding: 10px 20px;
+}
+
+.buyButton:hover{
+	background: #C0C0C0;
+}
+
+
