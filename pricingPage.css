@@ -4,24 +4,34 @@
 
 #topImage{
 	max-width: 100%;
-	
-	clear: both;
+	height:100px;
+	display: inline-block;
 }
 
 .personalUseColumn{
 	box-sizing: border-box;
-	width: 33.3%;
+	width: 25%;
 	padding: 5px;
 	float: left;
 	text-align: center;
 }
 
+#basicPlan{
+	margin: 0 0 0 12.5%;
+}
+
 .businessUseColumn{
+
 	box-sizing: border-box;
-	width:50%;
+	width:40%;
+	margin: 15px 0;
 	padding: 5px;
 	float: left;
 	text-align: center;
+}
+
+#option1{
+	margin: 15px 0 15px 10%;
 }
 
 .plan{
@@ -85,6 +95,24 @@
 	background-color: #CC1EFF;
 }
 
+#businessOption1Header{
+	background-color: #50ff77;
+}
+
+#priceBusinessOption1Plan{
+	background: #3fc59e;
+	font-weight: 900;
+}
+
+#businessOption2Header{
+	background-color: #CC1EFF;
+}
+
+#priceBusinessOption2Plan{
+	background: #8B14AD;
+	font-weight: 900;
+}
+
 .info{
 	border-bottom: 1px solid #eee;
 	border-right: 1px solid #eee;
@@ -114,6 +142,11 @@
 
 .buyButton:hover{
 	background: #C0C0C0;
+	box-shadow: 4px 4px 6px 0 rgba(0,0,0,0.2);
+}
+
+.trial{
+	clear: both;
 }
 
 
