@@ -1,0 +1,343 @@
+*{
+	box-sizing: border-box;
+}
+
+.imageHider{
+	overflow: hidden;
+	position: relative;
+	max-width:100vw;
+	height: 17vw;
+	background: none;
+}
+
+#topImage{
+	max-width:100vw;
+	height: auto;
+	display: block;
+	position: absolute;
+	z-index: -1;
+}
+
+.imageHider h1{
+	font-family: 'Raleway';
+	font-weight: 400;
+	font-size: 4vw;
+	position:absolute;
+	top:2vw;
+	margin: 0 0 0 12.5%;
+}
+
+.imageHider h5{
+	font-family: 'Raleway';
+	font-size: 1.5vw;
+	font-weight: 300;
+	position: absolute;
+	top:7vw;
+	margin: 0 0 0 12.5%;
+
+}
+
+.personalUseColumn{
+	box-sizing: border-box;
+	width: 25%;
+	padding: 5px;
+	float: left;
+	text-align: center;
+	position:relative;
+	top:-7vw;
+}
+
+#basicPlan{
+	margin: 0 0 0 12.5%;
+}
+
+.businessSection{
+	max-width: 100%;
+	height: 33vw;
+	margin-top: 2vw;
+	position: relative;
+}
+
+.businessUseColumn{
+
+	width:35%;
+	padding: 5px;
+	float: right;
+	text-align: center;
+}
+
+#option1{
+	position: absolute;
+	top: 2%;
+	left: 2%;
+}
+
+#option2 {
+	float: right;
+	position: absolute;
+	top: 2%;
+	right: 2%;
+}
+
+.plan{
+	list-style-type: none;
+	margin:0;
+	padding:0;
+	background: white;
+	border: none;
+	-webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+
+.plan:hover{
+	box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2);
+}
+
+.price{
+	font-size: 2.6vw;
+	color: white;
+	font-family: 'Oxygen';
+	font-weight: bold;
+	width: 100%;
+	padding: 1.5vw 0;
+}
+
+.header{
+	color: white;
+	font-family: 'Raleway';
+	font-size: 2.3vw;
+	font-weight: 400;
+	width:100%;
+	padding:0.7vw 0;
+}
+
+
+#priceBasicPlan{
+	background: #50ff77;
+	font-weight: 900;
+}
+
+#basicPlanHeader{
+	background-color: black;
+}
+
+#priceStandardPlan{
+	background: #32B6DF;
+	font-size: 3vw;
+	padding: 2vw 0;
+}
+
+#standardPlanHeader{
+	background-color: black;
+}
+
+#pricePremiumPlan{
+	background: #CC1EFF;
+}
+
+#premiumPlanHeader{
+	background-color: black;
+}
+
+#businessOption1Header{
+	background-color: #50ff77;
+}
+
+#priceBusinessOption1Plan{
+	background: #3fc59e;
+	font-weight: 900;
+}
+
+#businessOption2Header{
+	background-color: #CC1EFF;
+}
+
+#priceBusinessOption2Plan{
+	background: #8B14AD;
+	font-weight: 900;
+}
+
+.info{
+	border-bottom: 1px solid #eee;
+	border-right: 1px solid #eee;
+	border-left: 1px solid #eee;
+    padding: 1.2vw;
+    text-align: center;
+    font-family: 'Oxygen';
+    font-size: 1.1vw;
+}
+
+#basicPlanButton{
+	background: #50ff77;
+}
+#standardPlanButton{
+	background: #32B6DF;
+}
+#premiumPlanButton{
+	background: #CC1EFF;
+}
+
+#option1PlanButton{
+	background: #eee;
+}
+#option2PlanButton{
+	background: #eee;
+}
+
+
+.buyButton{
+
+	text-decoration: none;
+	color: black;
+	display:inline-block;
+	text-align: center;
+	font-family: 'Rubik';
+	font-size: 1.1vw;
+	font-weight: bold;
+	width: 100%;
+	padding: 1.2vw;
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+
+#basicPlanButton:hover{
+	background: #C0C0C0;
+	box-shadow: 4px 4px 6px 0 rgba(0,0,0,0.2);
+}
+
+#standardPlanButton:hover{
+	background: #C0C0C0;
+	box-shadow: 4px 4px 6px 0 rgba(0,0,0,0.2);
+}
+
+#premiumPlanButton:hover{
+	background: #C0C0C0;
+	box-shadow: 4px 4px 6px 0 rgba(0,0,0,0.2);
+}
+
+#option1PlanButton:hover{
+	background: #C0C0C0;
+	box-shadow: 4px 4px 6px 0 rgba(0,0,0,0.2);
+}
+
+#option2PlanButton:hover{
+	background: #C0C0C0;
+	box-shadow: 4px 4px 6px 0 rgba(0,0,0,0.2);
+}
+
+.trial{
+	clear: both;
+	text-align: center;
+	max-width: 100%;
+	padding: 5vw 0;
+	margin: 2vw 0;
+	background: #39E3FF;
+}
+
+.trial h1{
+	font-family: 'Oxygen';
+	font-weight: 300;
+	font-size: 3vw;
+	position: relative;
+	top: -2vw;
+}
+
+.trial h3{
+	font-family: 'Oxygen';
+	font-weight: 300;
+	font-size: 2vw;
+	position: relative;
+	top: -1.5vw;
+}
+
+.nextButton{
+	background: #2696a8 ;
+	text-decoration: none;
+	font-family: 'Raleway';
+	font-weight: 600;
+  	border: none;
+  	border-radius: 4px;
+  	color:  white;
+  	text-align: center;
+  	font-size: 1.5vw;
+  	padding: 1.5vw 2vw;
+  	transition: all 0.5s;
+  	position: relative;
+  	top: 0.5vw;
+}
+
+.nextButton:after {
+  content: ">>";
+  position: absolute;
+  opacity: 0;  
+  right: -2vw;
+  transition: 0.5s;
+}
+
+.nextButton:hover{
+  padding-right: 3.5vw;
+  padding-left:1.0vw;
+}
+
+.nextButton:hover:after {
+  opacity: 1;
+  right: 1vw;
+}
+
+#businessColumnHeader{
+	font-family: "Raleway";
+	font-weight: 800;
+	font-size: 2vw;
+	width: 80%;
+	height: 4vw;
+	margin: 0 0 0 10%;
+	background: #eee;
+	text-align: center;
+	padding: 1vw 0;
+}
+
+#businessColumnExplanation{
+	font-family: "Oxygen";
+	font-weight: 400;
+	font-size: 1.3vw;
+	margin: 2%  10% 0 10%;
+}
+
+.icons img {
+	clear: both;
+	height: 8vw;
+	width: 8vw;
+	display: block;
+	margin: 1vw 0;
+	position: absolute;
+	left: 37vw;
+}
+
+#moneyIcon{
+	top:1vw;
+}
+
+#handshakeIcon{
+	top:11vw;
+}
+
+#graphIcon{
+	top:21vw;
+}
+
+#tick1{
+	left: 49vw;
+	top: 1vw;
+}
+
+#tick2{
+	left: 49vw;
+	top: 11vw;
+}
+
+#tick3{
+	left: 49vw;
+	top: 21vw;
+}
