@@ -1,30 +1,95 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<link rel="stylesheet" type="text/css" href="hompage.css">
-	<title>Khronis</title>
+	<title>Khronis | Home</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+<style>
+.mySlides {display:none;}
+</style>
+	<link rel="stylesheet" type="text/css" href="hompage.css"/>
+
 </head>
+
+
 <body>
+	<header>
+		<img class="logo" src="images/Khronis Official Logo.png">
+		<input type="checkbox" id="nav-toggle" class="nav-toggle">
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Product</a></li>
+				<li><a href="#">Pricing</a></li>
+				<li><a href="#">Blog</a></li>
+				<li><a href="#">About Us</a></li>
+			</ul>
+
+		</nav>
+		<label for= "nav-toggle" class="nav-toggle-label">
+			<span>|||</span>
+		</label>
+
+	</header>
 	
-	<div id="heading" style="background-color: rgba(0,0,0,0.5);">
-		<div id = "logo">
-			<img src="Khronis Official Logo.png" style="width: 100px;height: 100;">
-			
-			<a style="text-decoration:none"href="http://google.ca"><h4 id="homeTitle">Home</h4></a>
-			<a style="text-decoration:none"href="http://google.ca"><h4 id="ProductTitle">Product</h4></a>
-			<a style="text-decoration:none"href="http://google.ca"><h4 id="PricingTitle">Pricing</h4></a>
-			<a style="text-decoration:none"href="http://google.ca"><h4 id="BlogTitle">Blog</h4></a>
-			<a style="text-decoration:none"href="http://google.ca"><h4 id="AboutTitle">About Us</h4></a>
-			
-			
-			
-			
+	
+
+	<div class="slider" style="max-width:900px">
+		<a href="http://google.com"><img class="mySlides" src="images/stand.png" style= "width: 185%"></a>
+		<a href="http://google.com"><img class="mySlides" src="images/stand2.png" style="width:185%" ></a>
+		<a href="http://google.com"><img class="mySlides" src="images/stand4.png" style="width:185%" ></a>
+		<a href="http://google.com"><img class="mySlides" src="images/stand3.png" style="width:185%" ></a>
+
+
+		<div id="break">
+			<p>
+				
+
+
+
+
+
+
+
+			</p>
 		</div>
 
-		<a style="text-decoration:none"href="http://google.ca"><h4 id="homeTitle">Home</h4></a>
-		<a style="text-decoration:none"href="http://google.ca"><h4 id="ProductTitle">Product</h4></a>
-		<a style="text-decoration:none"href="http://google.ca"><h4 id="PricingTitle">Pricing</h4></a>
-		<a style="text-decoration:none"href="http://google.ca"><h4 id="BlogTitle">Blog</h4></a>
-		<a style="text-decoration:none"href="http://google.ca"><h4 id="AboutTitle">About Us</h4></a>
+		
+
+  		
+  		
+  		
+
+  		<div>
+  			<a href="http://google.com"><img id="post1" src="images/post1.png"></a>
+  			<a href="http://google.com"><img id="post2" src="images/post2.png"></a>
+  			<a href="http://google.com"><img id="post3" src="images/post3.png"></a>
+  		</div>
+
+	</div>
+
+
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 5000); // Change image every 2 seconds
+
+
+}
+</script>
+
 </body>
+
 </html>

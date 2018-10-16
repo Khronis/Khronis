@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>slidshow</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+<link rel="stylesheet" href="slideshow.css">
+<style>
+.mySlides {display:none;}
+</style>
+</head>
+
+<body>
+
+
+<div class="slider" style="max-width:500px">
+  <img class="mySlides" src="https://r.hswstatic.com/w_907/gif/tesla-cat.jpg" style="width:200%">
+  <img class="mySlides" src="http://www.catster.com/wp-content/uploads/2017/11/A-Siamese-cat.jpg" style="width:200%">
+  <img class="mySlides" src="https://ichef.bbci.co.uk/images/ic/720x405/p0517py6.jpg" style="width:200%">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+
+
+}
+</script>
