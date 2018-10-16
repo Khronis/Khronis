@@ -166,9 +166,9 @@ nav a:hover{
 
 .slider{
 
-	position: relative;
+	position: absolute;
 	
-    top: 50%;
+    
     width: 100%;
     left: 8px;
     
@@ -176,25 +176,30 @@ nav a:hover{
 
 #post1{
 	width: 50%;
-	position: relative;
+	position: absolute;
 
-	top: 50px;
+	top: 800px;
 }
 
 #post2{
 	width: 50%;
-	position: relative;
+	position: absolute;
 
 	left: 600px;
 
-	top: -405px;
-}
+	top: 800px;
+
+	}
 #post3{
 	width: 50%;
-	position: relative;
+	position: absolute;
 
 	left: 1200px;
 
-	top: -860px;
+	top: 800px;
+
+	
 }
 }
+
+
