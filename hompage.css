@@ -175,7 +175,7 @@ nav a:hover{
 }
 
 #post2{
-	padding: 59px;
+	padding: 55px;
 	
 
 	}
@@ -193,6 +193,7 @@ nav a:hover{
 	position: relative;
 
 	left: 100px;
+	max-width: 100%
 }
 
 #footer{
@@ -202,6 +203,9 @@ nav a:hover{
 #tblLogo{
 	width: 50%;
 	height:50%;
+}
+.slider{
+	max-width: 100%
 }
 
 
