@@ -54,14 +54,14 @@
 .businessUseColumn{
 
 	width:40%;
-	margin: 15% 0;
+	margin: 5% 0;
 	padding: 5px;
 	float: left;
 	text-align: center;
 }
 
 #option1{
-	margin: 15px 0 15px 10%;
+	margin: 5% 0 5% 10%;
 }
 
 .plan{
@@ -168,6 +168,14 @@
 	background: #CC1EFF;
 }
 
+#option1PlanButton{
+	background: #eee;
+}
+#option2PlanButton{
+	background: #eee;
+}
+
+
 .buyButton{
 
 	text-decoration: none;
@@ -177,12 +185,12 @@
 	font-family: 'Rubik';
 	font-size: 1.2vw;
 	font-weight: bold;
-	background: white;
 	width: 100%;
 	padding: 0.5vw 0;
 	-webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
 }
+
 
 #basicPlanButton:hover{
 	background: #C0C0C0;
@@ -195,6 +203,16 @@
 }
 
 #premiumPlanButton:hover{
+	background: #C0C0C0;
+	box-shadow: 4px 4px 6px 0 rgba(0,0,0,0.2);
+}
+
+#option1PlanButton:hover{
+	background: #C0C0C0;
+	box-shadow: 4px 4px 6px 0 rgba(0,0,0,0.2);
+}
+
+#option2PlanButton:hover{
 	background: #C0C0C0;
 	box-shadow: 4px 4px 6px 0 rgba(0,0,0,0.2);
 }
