@@ -2,10 +2,36 @@
 	box-sizing: border-box;
 }
 
+.imageHider{
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	height: 200px;
+	background: none;
+}
+
 #topImage{
-	max-width: 100%;
-	height:100px;
-	display: inline-block;
+	width: 100%;
+	display: block;
+	position: absolute;
+	z-index: -1;
+}
+
+#pricingTitle{
+	font-family: 'Raleway';
+	font-weight: 400;
+	font-size: 6vw;
+	position:absolute;
+	margin: 0 0 0 12.5%;
+}
+
+#pricingSubtitle{
+	font-family: 'Raleway';
+	font-weight: 300;
+	font-size: 2vw;
+	position:absolute;
+	top:100px;
+	margin:0 0 0 12.5%;
 }
 
 .personalUseColumn{
@@ -14,6 +40,8 @@
 	padding: 5px;
 	float: left;
 	text-align: center;
+	position:relative;
+	top:-50px;
 }
 
 #basicPlan{
@@ -22,9 +50,8 @@
 
 .businessUseColumn{
 
-	box-sizing: border-box;
 	width:40%;
-	margin: 15px 0;
+	margin: 15% 0;
 	padding: 5px;
 	float: left;
 	text-align: center;
@@ -136,8 +163,8 @@
 	font-family: 'Rubik';
 	font-weight: bold;
 	background: white;
-	padding: 10px 20px;
-	margin: 7px 0;
+	padding: 3% 10%;
+	margin: 7px 3%;
 }
 
 .buyButton:hover{
