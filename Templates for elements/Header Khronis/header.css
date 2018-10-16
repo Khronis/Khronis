@@ -12,32 +12,23 @@
 
 body {
 	margin: 0;
-	background: #222;
+	background: none;
 	font-family: "Kanit", sans-serif;
 	font-weight: 400;
 }
 
-.content{
-	height: 200vh;
-	background-image: url(img/showbox.jpg);
-	background-color: #333;
-	background-blend-mode: multiply;
-	background-size: cover;
-	display: grid;
-	place-items: center;
-}
 
 /* Nav styles */
 header{
 	background: rgba(50,182,223, .5);
 	text-align: center;
-	position: fixed;
+	position: relative;
 	z-index: 999;
 	width:100%;
 }
 
 .logo{
-	width: 50%;
+	width: 50px;
 	text-align: right;
 
 }
