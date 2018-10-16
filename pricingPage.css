@@ -40,7 +40,7 @@
 .personalUseColumn{
 	box-sizing: border-box;
 	width: 25%;
-	padding: 5px;
+	padding: 2px 5px;
 	float: left;
 	text-align: center;
 	position:relative;
@@ -51,8 +51,9 @@
 	margin: 0 0 0 12.5%;
 }
 
+
 .businessSection{
-	max-width: 100%;
+	width: 100%;
 	height: 33vw;
 	margin-top: 2vw;
 	position: relative;
@@ -230,7 +231,9 @@
 .trial{
 	clear: both;
 	text-align: center;
-	max-width: 100%;
+	position: relative;
+	top: -2vw;
+	width: 100%;
 	padding: 5vw 0;
 	margin: 2vw 0;
 	background: #39E3FF;
@@ -254,6 +257,7 @@
 
 .nextButton{
 	background: #2696a8 ;
+	display:inline-block;
 	text-decoration: none;
 	font-family: 'Raleway';
 	font-weight: 600;
@@ -261,29 +265,36 @@
   	border-radius: 4px;
   	color:  white;
   	text-align: center;
-  	font-size: 1.5vw;
-  	padding: 1.5vw 2vw;
+  	font-size: 1.2vw;
+  	padding: 1.5vw;
+  	width: 12vw;
   	transition: all 0.5s;
   	position: relative;
   	top: 0.5vw;
 }
 
-.nextButton:after {
+.nextButton span {
+	cursor: pointer;
+  	display: inline-block;
+  	position: relative;
+  	transition: 0.2s;
+}
+
+.nextButton span:after {
   content: ">>";
   position: absolute;
   opacity: 0;  
-  right: -2vw;
-  transition: 0.5s;
+  right: -1.5vw;
+  transition: 0.2s;
 }
 
-.nextButton:hover{
-  padding-right: 3.5vw;
-  padding-left:1.0vw;
+.nextButton:hover span{
+  padding-right: 2vw;
 }
 
-.nextButton:hover:after {
+.nextButton:hover span:after {
   opacity: 1;
-  right: 1vw;
+  right: 0;
 }
 
 #businessColumnHeader{
