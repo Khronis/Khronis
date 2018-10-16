@@ -164,42 +164,44 @@ nav a:hover{
 	}
 }
 
-.slider{
 
-	position: absolute;
-	
-    
-    width: 100%;
-    left: 8px;
-    
-}
 
 #post1{
-	width: 50%;
-	position: absolute;
+	padding-right: 30px;
+	padding-bottom: 30px;
+	padding-top: 30px;
 
-	top: 800px;
+
 }
 
 #post2{
-	width: 50%;
-	position: absolute;
-
-	left: 600px;
-
-	top: 800px;
+	padding: 59px;
+	
 
 	}
 #post3{
-	width: 50%;
-	position: absolute;
-
-	left: 1200px;
-
-	top: 800px;
+	padding-left: 30px;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	
 
 	
 }
+}
+
+#posting{
+	position: relative;
+
+	left: 100px;
+}
+
+#footer{
+	background-color: rgba(50,182,223, .5);
+}
+
+#tblLogo{
+	width: 50%;
+	height:50%;
 }
 
 
