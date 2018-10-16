@@ -53,15 +53,16 @@
 
 .businessUseColumn{
 
-	width:40%;
-	margin: 5% 0;
+	width:30%;
+	margin: 2% 5%;
 	padding: 5px;
-	float: left;
+	float: right;
 	text-align: center;
 }
 
 #option1{
-	margin: 5% 0 5% 10%;
+	margin: 2% 0 2% 5%;
+	float: left;
 }
 
 .plan{
@@ -186,7 +187,7 @@
 	font-size: 1.2vw;
 	font-weight: bold;
 	width: 100%;
-	padding: 0.5vw 0;
+	padding: 0.5vw;
 	-webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
 }
@@ -275,3 +276,30 @@
   opacity: 1;
   right: 1vw;
 }
+
+#businessColumnHeader{
+	font-family: "Raleway";
+	font-weight: 800;
+	font-size: 2vw;
+	width: 80%;
+	height: 4vw;
+	margin: 0 0 0 10%;
+	background: #eee;
+	text-align: center;
+	padding: 1vw 0;
+}
+
+#businessColumnExplanation{
+	font-family: "Oxygen";
+	font-weight: 400;
+	font-size: 1.3vw;
+	margin: 2%  10% 0 10%;
+}
+
+.icons img {
+	height: 8vw;
+	width: 8vw;
+	display: block;
+	margin-top:2.5vw;
+}
+
