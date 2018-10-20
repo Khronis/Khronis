@@ -5,6 +5,7 @@
 .imageHider{
 	overflow: hidden;
 	position: relative;
+	top: 4vw;
 	max-width:100vw;
 	height: 17vw;
 	background: none;
@@ -34,7 +35,6 @@
 	position: absolute;
 	top:7vw;
 	margin: 0 0 0 12.5%;
-
 }
 
 .personalUseColumn{
@@ -44,7 +44,7 @@
 	float: left;
 	text-align: center;
 	position:relative;
-	top:-7vw;
+	top:-3vw;
 }
 
 #basicPlan{
@@ -232,7 +232,7 @@
 	clear: both;
 	text-align: center;
 	position: relative;
-	top: -2vw;
+	top: -1vw;
 	width: 100%;
 	padding: 5vw 0;
 	margin: 2vw 0;

@@ -12,15 +12,19 @@
 
 body {
 	margin: 0;
-	background: #222;
+	background: #32B6DFFF;
 	font-family: "Kanit", sans-serif;
 	font-weight: 400;
 }
 
 .content{
 	height: 200vh;
-	background-image: url(img/showbox.jpg);
+<<<<<<< HEAD
+	background-image: url(aboutUsImages/community.jpg);
 	background-color: #333;
+=======
+	background-color: white;
+>>>>>>> 279327465a0d55e82b0d90a1ec190040cc579a07
 	background-blend-mode: multiply;
 	background-size: cover;
 	display: grid;
