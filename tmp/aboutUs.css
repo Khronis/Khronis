@@ -151,7 +151,6 @@ nav a:hover{
 .aboutMain{
 	background: #32B6DFFF;
 	position: relative;
-	font-family: "Kanit"
 }
 #imageBack{
     background: no-repeat;
@@ -184,10 +183,8 @@ img{
   text-align: center;
   line-height: 30px;
   font-size: 20px;
-  vertical-align: middle;
-  padding: 20px;
+  padding: 5px;
   background: #32B6DFFF;
-  font-family: "Kanit"
 }
 
 .flex-container .box1 {
@@ -197,5 +194,4 @@ img{
   line-height: 30px;
   font-size: 20px;
   background: #32B6DFFF;
-  font-family: "Kanit"
 }
