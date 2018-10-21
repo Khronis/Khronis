@@ -2,25 +2,20 @@
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC');
 
 
-:root{
-	--background: rgba(50,182,223, .5);
-}
-
 *, *::before, *::after{
 	box-sizing: border-box;
 }
 
 body {
 	margin: 0;
-	background: #222;
+	background: #2E2E2E;
 	font-family: "Kanit", sans-serif;
 	font-weight: 400;
 }
 
 .content{
 	height: 200vh;
-	background-image: url(img/showbox.jpg);
-	background-color: #333;
+	background-color: #2E2E2E;
 	background-blend-mode: multiply;
 	background-size: cover;
 	display: grid;
@@ -29,11 +24,12 @@ body {
 
 /* Nav styles */
 header{
-	background: rgba(50,182,223, 0);
+	background: rgba(50,182,223, 1);
 	text-align: center;
 	position: fixed;
 	z-index: 999;
 	width:100%;
+	padding: 20px;
 }
 
 .logo{
@@ -58,7 +54,7 @@ header{
 
 .nav-toggle-label span{
 	transform:rotate(-90deg);
-	color: white;
+	color: black;
 	font-weight: 100;
 	font-size: 35px;
 	font-family: "Amatic+SC";
@@ -68,7 +64,7 @@ nav{
 	text-align: left;
 	top:100%;
 	left: 0;
-	background: rgba(50,182,223, 0);
+	background: rgba(50,182,223, 0.8);
 	width: 100%;
 	transform: scale(1,0);
 	transform-origin: top;
@@ -111,7 +107,7 @@ nav a:hover{
 	transition: opacity 250ms ease-in-out 250ms;
 }
 
-@media screen and (min-width: 1055px){
+@media screen and (min-width: 650px){
 	.nav-toggle-label{
 		display: none;
 	}
@@ -127,11 +123,13 @@ nav a:hover{
 
 	nav{
 		all: unset;
+		position: absolute;
 		grid-column: 1/4;
 		display: flex;
 		justify-content: flex-end;
 		align-items: center;
 		margin: 20px;
+		margin-top: 12px;
 		position:fixed;
 	}
 	
@@ -165,4 +163,35 @@ nav a:hover{
 	nav a:hover::before{
 		transform: scale(1,1);
 	}
+}
+
+#Phone{
+	position: absolute;
+	left: 0;
+	border: 0;
+	border-radius:5%;
+    margin: 1%;
+	transform:rotate(-5deg);
+	z-index: 2;
+
+}
+
+#Phone:hover{
+	transform: rotate(-3deg);
+
+
+}
+.square{
+	position: absolute;
+	float: left;
+	width: 300px;
+	height: 500px;
+	margin: 50px;
+	margin-top: 65px;
+	background-color: #32B6DFFF;
+	transform:rotate(6deg);
+}
+
+
+
 }
