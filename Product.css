@@ -164,13 +164,15 @@ nav a:hover{
 		transform: scale(1,1);
 	}
 }
-
+.content{
+	
+}
 #Phone{
 	position: absolute;
 	left: 0;
 	border: 0;
 	border-radius:5%;
-    margin: 1%;
+    margin: 4%;
 	transform:rotate(-5deg);
 	z-index: 2;
 
@@ -186,12 +188,110 @@ nav a:hover{
 	float: left;
 	width: 300px;
 	height: 500px;
-	margin: 50px;
-	margin-top: 65px;
+	margin: 100px;
+	margin-top: 100px;
 	background-color: #32B6DFFF;
 	transform:rotate(6deg);
 }
 
+.Pro-txt {
+	font-family: 'Raleway';
+	font-weight: 900;
+	font-size: 2vw;
+	position: relative;
+	left: 15%;
+	float: left;
+	margin: 40px;
+	background: #39E3FF;
+	top: 20px;
+	z-index: 2;
+	border-radius: 4px;
+}
+
+.Pro-txt h1{
+	text-align: center;
+	font-size: 5vw;
+}
+
+.square2{
+	position: absolute;
+	float: right;
+	width: 580px;
+	height: 500px;
+	margin: 500px;
+	margin-top: 100px;
+	background-color: #50ff77;
+	transform:rotate(-50deg);
+}
+.trial{
+	clear: both;
+	text-align: center;
+	position: relative;
+	top: -1vw;
+	left: 20%;
+	width: 30%;
+	padding: 5vw 0;
+	margin: 2vw 0;
+	background: #39E3FF;
+	z-index: 2;
+}
 
 
+
+.trial h1{
+	font-family: 'Oxygen';
+	font-weight: 300;
+	font-size: 3vw;
+	position: relative;
+	top: -1.5vw;
+}
+
+.nextButton{
+	background: #2696a8 ;
+	display:inline-block;
+	text-decoration: none;
+	font-family: 'Raleway';
+	font-weight: 600;
+  	border: none;
+  	border-radius: 4px;
+  	color:  white;
+  	text-align: center;
+  	font-size: 1.2vw;
+  	padding: 1.5vw;
+  	width: 12vw;
+  	transition: all 0.5s;
+  	position: relative;
+  	top: 0.5vw;
+}
+
+.nextButton span {
+	cursor: pointer;
+  	display: inline-block;
+  	position: relative;
+  	transition: 0.2s;
+}
+
+.nextButton span:after {
+  content: ">>";
+  position: absolute;
+  opacity: 0;  
+  right: -1.5vw;
+  transition: 0.2s;
+}
+
+.nextButton:hover span{
+  padding-right: 2vw;
+  color: #50ff77;
+}
+
+.nextButton:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.reviews{
+	top: 10px;
+	display: flex;
+	position: absolute;
+	
 }
