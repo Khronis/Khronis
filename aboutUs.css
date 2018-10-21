@@ -199,6 +199,8 @@ img{
   background: #32B6DFFF;
   font-family: "Kanit"
 }
-.bottom{
+.flex-container .botBox .p{
+	text-align: center;
+
 
 }

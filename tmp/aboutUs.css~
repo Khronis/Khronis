@@ -181,7 +181,7 @@ img{
 .flex-container .box {
   width: 90%;
   text-align: center;
-  line-height: 75px;
+  line-height: 30px;
   font-size: 20px;
   padding: 5px;
   background: #32B6DFFF;
