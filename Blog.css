@@ -1,0 +1,147 @@
+body {
+	background-image: url("Website_Background.jpg")
+	
+    
+}
+/*table 
+{
+	width: 300px;
+	background-color: beige;
+	color: black;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+
+}
+*/
+.Top
+{
+	background-image: url("flowing_hair.jpg");
+    color: #32B6DFFF;
+    font-size: 80px;
+    padding: 10px;
+    height: 300px;
+	
+}
+
+.paragraphtext
+{
+	color: black;
+	width: 1100px;
+	
+	font-family: "Raleway"
+	
+	
+
+
+}
+.button{
+	 
+    border: none;
+    background-color: grey;
+    
+    padding: 5px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+	}
+
+.Post
+{
+	color: #32B6DFFF;
+	font-family: "Rubik"
+
+
+} 
+
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 150px;
+    height: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    width: 56%;
+
+}
+.fa-twitter {
+    background: #1DA1F2;
+    color: white;
+    width: 76%;
+}
+.fa-instagram {
+    background: #c32aa3;
+    color: white;
+    width: 97%;
+}
+
+#textbox
+{
+	width: 20px;
+	height: 10px;
+}
+
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+#topbar
+{
+
+	background-color: #F5F5DC;
+	color: #32B6DFFF;
+	height: 50px;
+	font-family: "Raleway"
+
+}
+
+.socialmedia
+{
+	width: 100%;
+}
+.popularposts
+{
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+
+}
