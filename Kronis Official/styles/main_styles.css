@@ -125,12 +125,12 @@ p a:hover::after
 }
 ::selection
 {
-	background: #fde0db;
-	color: #204C9E;
+	background: #204C9E;
+	color: #b5bece;
 }
 p::selection
 {
-	background: #fde0db;
+	background: #204C9E;
 }
 h1{font-size: 72px;}
 h2{font-size: 30px;}

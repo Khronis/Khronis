@@ -123,7 +123,7 @@ p a:hover::after
 ::selection
 {
 	background: #204C9E;
-	color: #ff4200;
+	color: #b5bece;
 }
 p::selection
 {
@@ -856,7 +856,7 @@ section
 {
 	width: 129px;
 	height: 40px;
-	background: #ff4200;
+	background: #204C9E;
 	margin-top: 35px;
 }
 .date_box span
